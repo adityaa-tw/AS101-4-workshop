@@ -10,6 +10,7 @@ The application consists of two Docker containers:
 It is a simple message-posting application  (referred to as Echo app in the instructions) where messages entered by the user in the web interface are written to the PostgreSQL database. The web front-end shows all messages entered by users.
 
 ## Instructions
+
 - [0. Setup](instructions/00_setup.md)
 - [1. Hawkeye](instructions/01_hawkeye.md)
 - [2. Secret Scanning](instructions/02_secret_scanning.md)
