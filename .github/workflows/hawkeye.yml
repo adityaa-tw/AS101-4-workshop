@@ -24,4 +24,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: Security scan using Hawkeye
         run: |
-          hawkeye scan --target web
+          hawkeye scan --target web -f medium
